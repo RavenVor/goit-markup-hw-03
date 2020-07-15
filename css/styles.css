@@ -84,7 +84,7 @@ body {
   border: 1px solid #ececec;
 }
 
-.header .container {
+.header > .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,6 +126,10 @@ body {
 
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.active {
+  color: var(--accent-color);
 }
 
 .navigation-link:hover,
@@ -178,6 +182,7 @@ body {
   padding-bottom: 10px;
   padding-left: 32px;
   border-radius: 4px;
+  outline: none;
   border: none;
 
   background-color: var(--accent-color);
@@ -256,6 +261,8 @@ body {
 }
 
 .occupation-list-item-desc {
+  padding-top: 27px;
+  padding-bottom: 27px;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--dark-theme-text-color);
 
@@ -341,7 +348,7 @@ body {
   background-color: #2f303a;
 }
 
-.footer .container {
+.footer > .container {
   display: flex;
   align-items: baseline;
   padding-top: 60px;
@@ -415,6 +422,7 @@ body {
   padding-bottom: 6px;
   padding-left: 22px;
   border-radius: 4px;
+  outline: none;
 
   background-color: var(--portfolio-button-bg-color);
   color: var(--portfolio-button-title-color);
